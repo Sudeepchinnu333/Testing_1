@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 	<body>
-		<h1>Hello welcome</h1>
+		<h1>Hello Welcome Sudeep</h1>
+		<h1>Hi <%=request.getAttribute("name") %></h1>
+		<p>Email :  <%=request.getAttribute("email") %></p>
+		<p>Password : <%=request.getAttribute("password") %></p>
 	</body>
 </html>
